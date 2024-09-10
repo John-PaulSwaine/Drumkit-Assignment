@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Drummer Hero</title>
+</head>
+<body>
+    <h1>DRUMMER HERO</h1>
+    <div class="drumkit">
+        <div class="Key" data-key="71">
+            <button id="hihat" class="green"><img class="image" src="./Drummer-Hero-Far-Left.jpg" alt="green button"></button>
+            <h2>G</h2>
+            <h2>Hi-Hat</h2>
+        </div>
+        <div class="Key" data-key="82">
+            <button id="snare" class="red"><img class="image" src="./Drummer-Hero-Center-Left.jpg" alt="red button"></audio></button>
+            <h2>R</h2>
+            <h2>Snare</h2>
+        </div>
+        <div class="Key" data-key="89">
+            <button id="bass" class="yellow"><img class="image" src="./Drummer-Hero-Center.jpg" alt="yellow button"></button>
+            <h2>Y</h2>
+            <h2>Bass</h2>
+        </div>
+        <div class="Key" data-key="66">
+            <button id="tom" class="blue"><img class="image" src="./Drummer-Hero-Center-Right.jpg" alt="blue button"></button>
+            <h2>B</h2>
+            <h2>Tom</h2>
+        </div>
+        <div class="Key" data-key="79">
+            <button id="cymbal" class="orange"><img class="image" src="./Drummer-Hero-Far-Right.jpg" alt="orange button"></button>
+            <h2>O</h2>
+            <h2>Cymbal</h2>
+        </div>
+    </div>
+
+    <audio data-key="71" src="sounds/hihat.wav"></audio>
+    <audio data-key="82" src="sounds/snare.wav"></audio>
+    <audio data-key="89" src="sounds/kick.wav"></audio>
+    <audio data-key="66" src="sounds/tom.wav"></audio>
+    <audio data-key="79" src="sounds/ride.wav"></audio>
+
+    <script src="./script.js"></script>
+</body>
+</html>
